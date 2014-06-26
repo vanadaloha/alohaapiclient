@@ -1,4 +1,4 @@
 cimplicityapiclient
 ===================
 
-API client for VANAD Cimplicity
+API Client plus examples for VANAD Cimplicity
