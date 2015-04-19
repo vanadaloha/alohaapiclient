@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
 
-require_once('CimplicityAPIClient.php');
-$cl = new CimplicityAPIClient();
-$cl->baseURL = 'http://api.vanadcimplicity.com';
+require_once('AlohaAPIClient.php');
+$cl = new AlohaAPIClient();
+$cl->baseURL = 'http://api.eu1.vanadaloha.net';
 
 $apikey = 'API_KEY_HERE';
 $campaignId = CAMPAIGN_ID_HERE;
@@ -16,7 +16,7 @@ $obj = $obj->$campaignId;
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Cimplicity Dashboard</title>
+    <title>Aloha Dashboard</title>
     <style type="text/css">
         table {
             text-align: center;
