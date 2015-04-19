@@ -1,6 +1,6 @@
 <?php
 
-class CimplicityAPIClient
+class AlohaAPIClient
 {
     
     var $baseURL;
